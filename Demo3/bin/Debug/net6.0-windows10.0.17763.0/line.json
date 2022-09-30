@@ -1,0 +1,253 @@
+﻿{
+  "stations": [
+    {
+      "StnName": "沙田站",
+      "HeadWay": 240,
+      "StnID": 0,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "坑梓站",
+      "HeadWay": 240,
+      "StnID": 1,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "坪山中心站",
+      "HeadWay": 240,
+      "StnID": 2,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "坪山广场站",
+      "HeadWay": 240,
+      "StnID": 3,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "坪山围站",
+      "HeadWay": 240,
+      "StnID": 4,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "锦龙站",
+      "HeadWay": 240,
+      "StnID": 5,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "宝龙站",
+      "HeadWay": 240,
+      "StnID": 6,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "南约站",
+      "HeadWay": 240,
+      "StnID": 7,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "嶂背站",
+      "HeadWay": 240,
+      "StnID": 8,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "大运站",
+      "HeadWay": 240,
+      "StnID": 9,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "坳背站",
+      "HeadWay": 240,
+      "StnID": 10,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "四联站",
+      "HeadWay": 240,
+      "StnID": 11,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "六约北站",
+      "HeadWay": 240,
+      "StnID": 12,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "石芽岭站",
+      "HeadWay": 240,
+      "StnID": 13,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "布吉站",
+      "HeadWay": 240,
+      "StnID": 14,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "罗湖北站",
+      "HeadWay": 240,
+      "StnID": 15,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "黄木岗站",
+      "HeadWay": 240,
+      "StnID": 16,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    },
+    {
+      "StnName": "岗厦北站",
+      "HeadWay": 240,
+      "StnID": 17,
+      "MinWait": 20,
+      "MaxWait": 40,
+      "MinTransTime": 90,
+      "MaxTransTime": 180
+    }
+  ],
+  "sections": [
+    {
+      "FromStation": "沙田站",
+      "ToStation": "坑梓站",
+      "SectionRunningTime": 95
+    },
+    {
+      "FromStation": "坑梓站",
+      "ToStation": "坪山中心站",
+      "SectionRunningTime": 95
+    },
+    {
+      "FromStation": "坪山中心站",
+      "ToStation": "坪山广场站",
+      "SectionRunningTime": 95
+    },
+    {
+      "FromStation": "坪山广场站",
+      "ToStation": "坪山围站",
+      "SectionRunningTime": 95
+    },
+    {
+      "FromStation": "坪山围站",
+      "ToStation": "锦龙站",
+      "SectionRunningTime": 95
+    },
+    {
+      "FromStation": "锦龙站",
+      "ToStation": "宝龙站",
+      "SectionRunningTime": 75
+    },
+    {
+      "FromStation": "宝龙站",
+      "ToStation": "南约站",
+      "SectionRunningTime": 73
+    },
+    {
+      "FromStation": "南约站",
+      "ToStation": "嶂背站",
+      "SectionRunningTime": 111
+    },
+    {
+      "FromStation": "嶂背站",
+      "ToStation": "大运站",
+      "SectionRunningTime": 69
+    },
+    {
+      "FromStation": "大运站",
+      "ToStation": "坳背站",
+      "SectionRunningTime": 82
+    },
+    {
+      "FromStation": "坳背站",
+      "ToStation": "四联站",
+      "SectionRunningTime": 56
+    },
+    {
+      "FromStation": "四联站",
+      "ToStation": "六约北站",
+      "SectionRunningTime": 75
+    },
+    {
+      "FromStation": "六约北站",
+      "ToStation": "石芽岭站",
+      "SectionRunningTime": 74
+    },
+    {
+      "FromStation": "石芽岭站",
+      "ToStation": "布吉站",
+      "SectionRunningTime": 59
+    },
+    {
+      "FromStation": "布吉站",
+      "ToStation": "罗湖北站",
+      "SectionRunningTime": 125
+    },
+    {
+      "FromStation": "罗湖北站",
+      "ToStation": "黄木岗站",
+      "SectionRunningTime": 137
+    },
+    {
+      "FromStation": "黄木岗站",
+      "ToStation": "岗厦北站",
+      "SectionRunningTime": 95
+    }
+  ]
+}
