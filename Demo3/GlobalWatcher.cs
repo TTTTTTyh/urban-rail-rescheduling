@@ -133,10 +133,10 @@ namespace Demo3
             //pq.RemainOne();
             while (pq.Count > 0)
             {
-                if (pq.Peek().train.TrainNum == "1031" /*&& pq.Peek().Stn.StnName == "坪山广场站"*/)
-                {
-                    int a = 1;
-                }
+                //if (pq.Peek().train.TrainNum == "1031" /*&& pq.Peek().Stn.StnName == "坪山广场站"*/)
+                //{
+                //    int a = 1;
+                //}
                 //if (pq.Peek().ArrTime.Day==30)
                 //{
                 //    int a = 1;

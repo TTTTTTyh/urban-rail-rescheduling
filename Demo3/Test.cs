@@ -99,7 +99,7 @@ namespace Demo3
                 if (i == root1.stations.Length-1)
                 {
                     stn._outDepotLine = new Section();
-                    stn._outDepotLine.FromStn = dep1;
+                    stn._outDepotLine.FromStn = dep2;
                     stn._outDepotLine.ToStn = stn;
                 }
                 stn.StnPriority = (root1.stations.Length - 1 - i);
@@ -110,10 +110,10 @@ namespace Demo3
             DataManager.Stns2.Reverse();
             DataManager.Stns2.Last()._indepotLine = new Section();
             DataManager.Stns2.Last()._indepotLine.FromStn = DataManager.Stns2.Last();
-            DataManager.Stns2.Last()._indepotLine.ToStn = dep2;
+            DataManager.Stns2.Last()._indepotLine.ToStn = dep1;
             DataManager.Stns1.Last()._indepotLine = new Section();
             DataManager.Stns1.Last()._indepotLine.FromStn = DataManager.Stns2.Last();
-            DataManager.Stns1.Last()._indepotLine.ToStn = dep1;
+            DataManager.Stns1.Last()._indepotLine.ToStn = dep2;
             (DataManager.Stns1.Last() as TurnBackStn)._antiStation = DataManager.Stns2[0];
             DataManager.Stns2.ForEach(stn => stnDic2.Add(stn.StnName, stn));
             foreach (var _sec in root1.sections)
@@ -134,6 +134,7 @@ namespace Demo3
                 Train trainTemp = new Train(); trainTemp.OrgArrs = new Dictionary<Station, DateTime>();
                 trainTemp.OrgDeps = new Dictionary<Station, DateTime>();
                 trainTemp.OrgArrs = new Dictionary<Station, DateTime>();
+                trainTemp.TrainNum = t.Name;
                 if (t.ArrTime.First().Key == DataManager.Stns1[0].StnName)
                 {
                     foreach (var arrStn in t.ArrTime.Keys)
@@ -142,7 +143,7 @@ namespace Demo3
                         TrainPlan p = new TrainPlan(); p.PlanTrainNum = t.Name;
                         p.PlanningTime = DateTime.Today + TimeSpan.FromSeconds(t.ArrTime[arrStn]);
                         trainTemp.OrgArrs.Add(stn, p.PlanningTime);
-                        stn._planArrSet.Add(p.PlanningTime.AddMinutes(-7), p.PlanningTime, p, trainTemp);
+                        stn._planArrSet.Add(p.PlanningTime.AddMinutes(-6), p.PlanningTime, p, trainTemp);
                     }
                 }
                 else
@@ -153,7 +154,7 @@ namespace Demo3
                         TrainPlan p = new TrainPlan(); p.PlanTrainNum = t.Name;
                         p.PlanningTime = DateTime.Today + TimeSpan.FromSeconds(t.ArrTime[arrStn]);
                         trainTemp.OrgArrs.Add(stn, p.PlanningTime);
-                        stn._planArrSet.Add(p.PlanningTime.AddMinutes(-7), p.PlanningTime, p, trainTemp);
+                        stn._planArrSet.Add(p.PlanningTime.AddMinutes(-6), p.PlanningTime, p, trainTemp);
                     }
                 }
                 if (t.DepTime.First().Key == DataManager.Stns1[0].StnName)
@@ -164,7 +165,7 @@ namespace Demo3
                         TrainPlan p = new TrainPlan(); p.PlanTrainNum = t.Name;
                         p.PlanningTime = DateTime.Today + TimeSpan.FromSeconds(t.DepTime[arrStn]);
                         trainTemp.OrgDeps.Add(stn, p.PlanningTime);
-                        stn._planDepSet.Add(p.PlanningTime.AddMinutes(-4), p.PlanningTime, p, trainTemp);
+                        stn._planDepSet.Add(p.PlanningTime.AddMinutes(-6), p.PlanningTime, p, trainTemp);
                     }
                 }
                 else
@@ -175,7 +176,7 @@ namespace Demo3
                         TrainPlan p = new TrainPlan(); p.PlanTrainNum = t.Name;
                         p.PlanningTime = DateTime.Today + TimeSpan.FromSeconds(t.DepTime[arrStn]);
                         trainTemp.OrgDeps.Add(stn, p.PlanningTime);
-                        stn._planDepSet.Add(p.PlanningTime.AddMinutes(-4), p.PlanningTime, p, trainTemp);
+                        stn._planDepSet.Add(p.PlanningTime.AddMinutes(-6), p.PlanningTime, p, trainTemp);
                     }
                 }
             }

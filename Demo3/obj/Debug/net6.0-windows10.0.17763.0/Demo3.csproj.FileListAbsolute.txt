@@ -89,3 +89,27 @@ C:\Users\11413\Desktop\实习\各种版本\Demo3 - 副本 - 副本\Demo3\obj\Deb
 C:\Users\11413\Desktop\实习\各种版本\Demo3 - 副本 - 副本\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.pdb
 C:\Users\11413\Desktop\实习\各种版本\Demo3 - 副本 - 副本\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.genruntimeconfig.cache
 C:\Users\11413\Desktop\实习\各种版本\Demo3 - 副本 - 副本\Demo3\obj\Debug\net6.0-windows10.0.17763.0\ref\Demo3.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Demo3.exe
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Demo3.deps.json
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Demo3.runtimeconfig.json
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Demo3.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Demo3.pdb
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Newtonsoft.Json.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\System.Drawing.Common.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\bin\Debug\net6.0-windows10.0.17763.0\WinRT.Runtime.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.csproj.AssemblyReference.cache
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.AssemblyInfoInputs.cache
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.AssemblyInfo.cs
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.csproj.CoreCompileInputs.cache
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.csproj.CopyComplete
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\refint\Demo3.dll
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.pdb
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\Demo3.genruntimeconfig.cache
+C:\Users\11413\Desktop\实习\各种版本\Demo3 resp\Demo3\obj\Debug\net6.0-windows10.0.17763.0\ref\Demo3.dll

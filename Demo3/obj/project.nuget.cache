@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1tpnBhxNPk5sxE3q0hRb/0Ut7RFOuKxiu9qbniUbUZT92deNzXw2UCx2nB6iVTHpEFiO6KSUHEST28H9xY0g3A==",
+  "dgSpecHash": "OqmiocWpoiR2RvmKCfKyuUdOIqLxYH0kPsmnYaKJjPemSlxnzlhyOFyJ/Nrd9DwCcaV/sdqMmsMw2CLXFig8Og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\11413\\Desktop\\实习\\各种版本\\Demo3 - 副本 - 副本\\Demo3\\Demo3.csproj",
+  "projectFilePath": "C:\\Users\\11413\\Desktop\\实习\\各种版本\\Demo3 resp\\Demo3\\Demo3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11413\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\11413\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
